@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Click Me!'),
+      
     );
   }
 }
@@ -115,6 +116,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const Text(
+              'Get Clicking!',
+            ),
             const Text(
               'You have clicked the button this many times:',
             ),
